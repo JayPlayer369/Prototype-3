@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
             
         }
 
-        else if (!isOnGround && doubleJump && doubleSpeed && Input.GetKeyDown(KeyCode.Space))
+        else if (!isOnGround && doubleJump && Input.GetKeyDown(KeyCode.Space))
             {
                 playerRb.velocity = new Vector2(playerRb.velocity.x, JumpingPower);
 
